@@ -1,0 +1,4 @@
+#define OBS_VERSION "32.1.2"
+#define LIBOBS_API_VER 32
+#define ARCH_X86_64
+#define HAVE_OBSCONFIG_H

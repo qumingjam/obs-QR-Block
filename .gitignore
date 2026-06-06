@@ -1,0 +1,28 @@
+# Build artifacts
+*.obj
+*.exp
+*.lib
+*.dll
+*.zip
+
+# Build directories
+build/
+qr-blocker-plugin-dist/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio artifacts
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Quirc demo/test files
+deps/quirc/demo/
+deps/quirc/tests/
+test_quirc.c
