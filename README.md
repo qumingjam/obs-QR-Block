@@ -27,11 +27,24 @@
 
 ## 构建
 
-要求：Visual Studio 2022
+### 前置要求
+- Windows 10/11
+- Visual Studio 2022（需要安装 "使用 C++ 的桌面开发" 工作负载）
+- OBS Studio 已安装（默认路径：`C:\Program Files\obs-studio`）
 
-```powershell
-.\rebuild.cmd
-```
+### 构建步骤
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/qumingjam/obs-QR-Block.git
+   cd obs-QR-Block
+   ```
+
+2. 一键构建：
+   ```powershell
+   .\rebuild.cmd
+   ```
+
+3. 构建完成后，插件会自动安装到 OBS 目录中
 
 ## 许可证
 
